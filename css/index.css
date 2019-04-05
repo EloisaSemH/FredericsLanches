@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url(https://everythingfonts.com/font/face/GKn8gkiKWUv2I8ayNYWEnQeF);
+
+@font-face {
+    font-family:Ubuntu;
+    src:url(../fonte/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family:Chunkfiv;
+    src:url(../fonte/Chunkfive.ttf);
+}
+
+body{
+	font-family:Chunkfiv, Arial, sans-serif;
+	background-image:url(../Imagens/bckgrd.jpg);
+        background-size: 350px;
+	margin:0;
+	background-position:center;
+        width: 100%;
+}
+
+#header{
+	width:100%;
+	height:155px;
+	background-image:url(../imagens/top.jpg);
+        background-size: cover;
+        /*background-position: center;*/
+        margin: 0px;
+        padding: 10px 0;
+}
+
+#figure{
+	width:200px;
+	margin:0px auto;
+}
+
+#figure img{
+	width:200px;
+	float:left;
+}
+
+#nav{
+	width:100%;
+	height:35.5px;
+        background-color: #3D2314;
+	text-align:center;
+	clear:both;
+        border-top:1px solid transparent;
+}
+
+#nav ul{
+	list-style:none;	
+        line-height: 05px;
+}
+
+#nav li{
+	display:inline;
+	text-transform:uppercase;
+        margin: 0;
+}
+
+#nav li a{
+	display:inline-block;
+	text-decoration:none;
+	color:#F6F1C7;
+	padding:17px;
+        margin-top: -30px;
+}
+
+#nav li a:hover{
+	color:#3D2314;
+	background-color:#F6F1C7;
+}
+
+#nav li a:focus{
+	color:#3D2314;
+	background-color:#F6F1C7;
+}
+
+#corpo{
+	width:80%;
+	height:575px;
+	margin:auto;
+	background-color: #F6F1C7;
+}
+
+iframe{
+	width:100%;
+	height:100%;
+	border:none;
+}
